@@ -1,0 +1,179 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+.first{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+   font-size: 3.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+.navbar{
+padding-bottom: 5rem;
+
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-btn{
+    margin: 5% 0 0 0;
+}
+
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 60px;
+}
+
+#features{
+    background-color:#fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1; 
+}
+
+.feature-box{
+    text-align: center;
+padding: 0 40px;
+}
+
+.fas{
+    color: #ef8172;
+    padding-bottom: 18px;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+
+.features{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.descript{
+    color: #8f8f8f;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+   
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+.testimonial-text{
+    font-weight:bold;
+    font-size: 2.5rem;
+}
+
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 4.5% 2%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-img{
+    width: 13%;
+    margin: 0 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.pricing-header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.row{
+    margin-top: 50px;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8% 15% 7% 15%;
+    color:#fff;
+}
+
+p{
+    color: #1f1f1f;
+}
+
+.cta-header{
+    font-size: 3.5rem;
+    margin-bottom: 50px;;
+}
+
+.download-button{
+    margin-right: 15px;
+}
+
+#footer{
+padding: 7% 15% 25%;
+text-align: center;
+}
+.icon{
+    color:#000;
+}
+.social-icon{
+    margin: 20px 25px;
+    color: #1f1f1f;  
+}
+.social-icon:hover{
+    color:#ef8172;
+}
+@media(max-width:991px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        margin-top: 25px;
+    }
+#title{
+    text-align: center;
+}
+}
